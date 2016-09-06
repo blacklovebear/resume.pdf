@@ -12,75 +12,95 @@
 
 - 2008.09 - 2012.07 南昌大学， 软件工程专业， 本科
 
-项目经验
---------
-- <datetime>2015.07 - 今</datetime> <head_>**数据统计平台第二版升级**  <lang>JavaScript,AngularJS,CSS</lang></head_>
-<description>对数据统计可视化平台做前后端分离，加快前后端开发速度，减少耦合
-</description>
-
-- <datetime>2014.11 - 2015.06</datetime> <head_>**Oracle到Hadoop迁移** <lang>Python,Hive,Hbase</lang></head_>
-<description>去Oracle化，将数据存储和运算从oracle迁移大Hadoop平台
-</description>
-
-- <datetime>2014.07 - 2014.10</datetime> <head_>**渠道实时用户数统计**
-<lang>Scala,Spark</lang></head_>
-<description>对渠道数据进行监控，实时统计注册，活跃用户数</description>
-
-- <datetime>2012.09 - 2013.07</datetime> <head_>**游戏实时在线在玩数据监控**  <lang>Python,Tornado,Redis</lang></head_>
-<description>对游戏实时在线在玩用户数，提供短信预警功能</description>
-
-- <datetime>2013.02 - 2013.07</datetime> <head_>**渠道推广数据展示后台**  <lang>Python,Tornado</lang></head_>
-<description>给游戏渠道合作商看数据，并对各个渠道质量进行分析</description>
-
-- <datetime>2013.04 - 2013.07</datetime> <head_>**游戏统计可视化后台** <lang>Python,Flask</lang></head_>
-<description>游戏各维度统计数据展示后台</description>
-
-
 工作经历
 --------
-
-- <datetime>2013.07 - 今 </datetime> <head_>**博雅互动-数据开发工程师**</head_>
+- <datetime>2013.07 - 2016-07 </datetime> <head_>**博雅互动-数据开发技术经理**</head_>
 <description>
-第一阶段：web后端开发主程 2年</br>
-1.使用Python开发，数据可视化API。熟悉Flask, Tornado web框架。</br>
-2.负责Python项目高效部署。项目最佳部署实践：supervisor + gunicorn + gevent + flask</br>
-3.离线数据统计sql编写。计算游戏分析数据维度，日活，玩牌，付费，渠道追踪等。</br>
-4.参加oracle到hadoop数据迁移。</br>
-5.编写spark stream实时数据统计。</br>
-</br>
-第二阶段：web前端开发组长 1年</br>
-1.快速完成前段基础技术栈学习: html/css/jQuery/JavaScrip/AngularJS。</br>
-2.完成前后端分离。从python Jinja 模板渲染切换为前后端分离方式。</br>
-3.使用新的前后端分离方式开发新项目。前端使用AngularJS，后端使用Python，前端使用grunt构建。</br>
-4.前端团队组建，人员招聘工作。</br>
+1.有ETL完整链路相关经验  
+2.熟练使用，开发过Hadoop,Hive,Hbase,Spark应用  
+3.有完善的数据展示系统搭建经验  
+4.具备初步的数据分析，用户画像相关经验  
 </description>
 
 - <datetime>2012.07 - 2013.07</datetime> <head_>**华为-软件开发工程师**</head_>
-<description>1.工作中使用 c/c++开发智能路由业务软件</br>
-2.CI（持续集成）项目负责人，保证CI过程自动完整的执行</br>
-3.问题定位排查。</description>
+<description>
+1.工作中使用 C/C++开发智能路由业务软件  
+2.CI(持续集成)项目负责人,保证CI过程自动完整的执行  
+3.问题定位排查  
+</description>
 
-其它
+项目经验
+--------
+- <datetime>2016.02 — 2016.07</datetime> <head_>**数据展示系统前端开发**  <lang>JavaScript,AngularJS,CSS</lang></head_>
+<description>
+技术：HTML + JavaScript + AngularJS  
+背景：之前前端开发都是通过后端模板渲染，开发效率低，并且和后端耦合很大。  
+导致前端开发效率严重影响了整体开发效率，因此开始了前后端分离方案  
+过程：  
+1.使用AngularJS作为前端开发框架，极大的提高了开发效率  
+2.使用Grunt构建，降低了前端部署的复杂度  
+3.页面展示选用Highcharts，极大的丰富了页面展现形式  
+</description>
+
+- <datetime>2015.10 - 2016.03</datetime> <head_>**数据ETL方案的讨论与设计** <lang>Heka,Flume,Kafka,Hadoop</lang></head_>
+<description>数据ETL方案采用 Heka + Flume + Kafka + Hadoop 方案  
+1.Heka负责数据的收集和处理  
+2.Flume负责一个区的日志汇总，提供缓存防止日志丢失  
+3.Kafka作为消息系统提供日志的接收和消费  
+4.Hadoop 负责日志的存储和计算  
+</description>
+
+- <datetime>2015.11 - 2016.01</datetime> <head_>**游戏渠道注册、活跃、收入实时计算**
+<lang>Scala,Spark</lang></head_>
+<description>
+技术：Spark + Scala  
+背景：博雅游戏合作的渠道有几百个，这些渠道商包括我们自己都希望实时看到游戏推广的效果。这样方便对渠道做正确的评估  
+过程：  
+1.主要使用 Spark Streaming从Kafka中读取数据并进行各种计算，最后将结果存入PostgreSQL数据库中  
+2.如果是需要去重的数据则会用到 Bloom Filter进行去重  
+</description>
+
+- <datetime>2015.07 - 2015.10</datetime> <head_>**用户宽表和用户画像开发**  <lang>Hbase,Impala</lang></head_>
+<description>
+技术：Hbase + Impala  
+背景：我们只有离线统计的数据，缺乏单个用户的属性信息  
+过程：  
+1.将用户唯一标识ID作为Hbase的key，value存放用户的各种属性和一些状态   
+2.这就建立了一个基本的用户画像，后续可以进行更多元的业务开发  
+</description>
+
+- <datetime>2014.11 - 2015.06</datetime> <head_>**Oracle数据库到Hadoop的迁移**  <lang>Hadoop,Hive,Sqoop,PostgreSQL</lang></head_>
+<description>
+技术：Hadoop + Hive + Sqoop + PostgreSQL  
+背景：随着数据量的增大，我们决定从Oracle数据库迁移到Hadoop集群  
+过程：  
+1.将Oracle的存储过程全部替换为基于Python的Hive统计脚本  
+2.自研发调度系统运行每天离线统计的Hive统计脚本  
+3.将Hive中的统计结果通过Sqoop同步到PostgreSQL数据库  
+4.使用工具对比Oracle和PostgreSQL中数据的差异  
+</description>
+
+- <datetime>2013.07 - 2014.10</datetime> <head_>**数据展示系统后端开发** <lang>Python,Flask,Tornado,Redis</lang></head_>
+<description>
+技术：Python + Flask + Tornado + Redis  
+背景：对统计数据提供RESTful APIs供前端页面调用，展示成各种图表  
+过程：  
+1.主要系统采用Flask作为Web framework 提供API接口  
+2.部分系统（高并发）使用Tornado作为Web framework提供API接口  
+3.采用Redis作为缓存层，供页面访问  
+4.系统部署采用：supervisor + gunicorn + gevent + Flask  
+</description>
+
+作品展示
 ----
-
-- 爱好: 阅读、电影、美剧
 - [2015年读的书](https://github.com/blacklovebear/readBook/blob/master/2015-read-books.md)
 - [2016年读的书](https://github.com/blacklovebear/readBook/blob/master/2016-read-books.md)
 
-
-擅长技能
-----
-
-- python, JavaScript, Linux, PostgreSQL, CSS, Redis , AngularJS
-- Node.js, Shell, Git, Apache Hadoop, spark, Java, 编译链接, 正则表达式, C/C++, docker,
-
-自我评价
+自我描述
 --------
-
-- 理性中夹杂着感性，喜欢有设计感的事物。
-- 热爱生活，喜欢阅读，向往旅行，充满好奇。
-- 喜欢简洁和有逻辑美感的事物或思想。
-- 有还不错的抽象和逻辑思维。
-- 说服能力还行，能准确的表达自己的思想。
+- 高效的持续学习者
+- 爱好阅读，相信阅读可以改变人的思想
+- 管理小心得：以结果为导向，发自内心关心他人的成长
+- 有良好的逻辑思维和表达能力
 
 ![avatar](../images/avatar.jpg)
