@@ -22,6 +22,11 @@ PDF Download: [pdf/resume.pdf?raw=true](https://github.com/hit9/resume.pdf/blob/
 我如何做一份类似的简历？
 -----------------------
 
+环境准备:
+yum install python
+easy_install pip
+yum install python-devel (or sudo apt-get install python-dev )
+
 1. 安装`wkhtmltopdf` (版本越高越好):
    ```bash
    # Ubuntu
