@@ -52,10 +52,10 @@
 --------
 - <datetime>2016.10 - now</datetime> <head_>**极策科技-高级数据工程师**</head_>
 <description>
-1.负责项目中 Spark 程序开发
-2.负责大数据 Trafodion、Kylin、Docker 等技术探索
-3.负责 Hadoop 平台运维及异常排查与定位
-4.大数据机器学习、深度学习研究探索
+1.负责项目中 Spark 程序开发  
+2.负责大数据 Trafodion、Kylin、Docker 等技术探索  
+3.负责 Hadoop 平台运维及异常排查与定位  
+4.大数据机器学习、深度学习研究探索  
 </description>
 
 - <datetime>2013.07 - 2016.7</datetime> <head_>**博雅互动-数据开发工程师**</head_>
