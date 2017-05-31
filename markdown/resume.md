@@ -14,6 +14,18 @@
 
 项目经验
 --------
+- <datetime>2017.04 - now</datetime> <head_>**Hadoop on Docker 应用实践**  <lang>Hadoop,Shell,Docker</lang></head_>
+<description>将 Ambari、HDP 利用Docker 进行安装，方便大数据平台在企业的安装部署
+</description>
+
+- <datetime>2017.02 - 2017.03</datetime> <head_>**Trafodion 应用探索**  <lang>Hadoop,Trafodion</lang></head_>
+<description>提供 Hadoop 大数据平台上的 OLTP 服务，保障企业数据安全
+</description>
+
+- <datetime>2016.10 - 2017.01</datetime> <head_>**案场成交用户画像**  <lang>Hive,Spark,Scala</lang></head_>
+<description>根据购房成交记录，结合银联数据，分析出成交用户的画像，提供营销决策
+</description>
+
 - <datetime>2015.10 - 2016.07</datetime> <head_>**数据统计平台第二版升级**  <lang>JavaScript,AngularJS,CSS</lang></head_>
 <description>对数据统计可视化平台做前后端分离，提高前后端开发效率，减少耦合
 </description>
@@ -38,7 +50,15 @@
 
 工作经历
 --------
-- <datetime>2013.07 - 今 </datetime> <head_>**博雅互动-数据开发工程师**</head_>
+- <datetime>2016.10 - now</datetime> <head_>**极策科技-高级数据工程师**</head_>
+<description>
+1.负责项目中 Spark 程序开发
+2.负责大数据 Trafodion、Kylin、Docker 等技术探索
+3.负责 Hadoop 平台运维及异常排查与定位
+4.大数据机器学习、深度学习研究探索
+</description>
+
+- <datetime>2013.07 - 2016.7</datetime> <head_>**博雅互动-数据开发工程师**</head_>
 <description>
 第一阶段：Web 后端开发主程 2年  
 1.精通 Python 编程，负责团队 Code Review 工作  
@@ -65,19 +85,19 @@
 ----
 - [2015年读过的书](https://github.com/blacklovebear/readBook/blob/master/2015-read-books.md)
 - [2016年读过的书](https://github.com/blacklovebear/readBook/blob/master/2016-read-books.md)
+- [2017年读过的书](https://github.com/blacklovebear/readBook/blob/master/2017-read-books.md)
 
 
 擅长技能
 ----
-- Python, JavaScript, PostgreSQL, CSS, Redis, AngularJS, Node.js
-- Hadoop, SQL, Hive, Spark, Git, Java, 编译链接, 正则表达式, Docker
+- Python, Scala, Shell, Java, JavaScript, CSS, AngularJS, Node.js
+- Hadoop, Spark, Hive, Docker, Git, PostgreSQL, Redis, 编译链接, 正则表达式
 
-自我评价
+简评
 --------
-- 理性中夹杂着感性，喜欢有设计感的事物
-- 热爱生活，喜欢阅读，充满好奇
-- 喜欢简洁和有逻辑美感的事物或思想
-- 有还不错的抽象和逻辑思维
-- 说服能力还行，能准确的表达自己的思想
+- 持续学习者
+- 极简主义
+- 原始饮食爱好者
+- 热爱阅读
 
 ![avatar](../images/avatar.jpg)
