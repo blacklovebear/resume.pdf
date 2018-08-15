@@ -44,7 +44,7 @@ alias wkhtmltopdf='xvfb-run --server-args="-screen 0, 1024x768x24" wkhtmltopdf'
 2. 安装`md2pdf`:
 
    ```bash
-   pip install git+git://github.com/hit9/md2pdf.git@master
+   pip install md2pdf
    ```
 
 3. 自行编写`markdown/resume.md`, 并自行修改样式`css/style.css`.
