@@ -14,14 +14,17 @@
 
 项目经验
 --------
-- <datetime>2017.07 - now</datetime> <head_>**实时数据同步项目**</head_><lang>Java,Kafka</lang>
-<description>将 Canal 解析后的 MySQL binlog 信息利用多线程将数据实时同步到 Kafka 中，  
-技术难点：对 Java 多线程编程和内存需要很好的控制
+- <datetime>2017.07 - now</datetime> <head_>**中信银行实时数据同步项目**</head_><lang>Java,Kafka</lang>
+<description>将 Canal 解析后的 MySQL binlog 信息利用多线程将数据实时同步到 Kafka 中  
+技术难点：  
+1.对 Java 多线程编程和内存需要很好的控制  
+2.利用火焰图分析程序耗时操作并优化  
+3.利用MAT完成对高性能场景下内存使用的分析  
 </description>
 
 - <datetime>2016.10 - 2017.06</datetime> <head_>**大数据平台开发和维护**</head_><lang>Java,Linux,Docker</lang>
-<description>将 Ambari、HDP 利用 Docker 进行安装，方便大数据平台在企业的安装部署,  
-	以及提供 Hadoop 平台上的 OLTP 服务
+<description>
+项目HDP，Ambari 平台部署以及运维，并且开发过一套利用docker 部署HDP平台的方案
 </description>
 
 - <datetime>2015.10 - 2016.07</datetime> <head_>**游戏数据统计平台第二版升级**</head_><lang>JavaScript,AngularJS,CSS</lang>
@@ -51,14 +54,14 @@
 3.负责大数据相关后端技术的探索研究以及落地应用
 </description>
 
-- <datetime>2013.07 - 2016.7</datetime> <head_>**博雅互动-游戏开发工程师**</head_>
+- <datetime>2013.07 - 2016.7</datetime> <head_>**博雅互动-数据工程师**</head_>
 <description>
 1.独立开发全公司游戏渠道对接平台  
 2.公司游戏数据分析平台后端主力开发  
-3.游戏 Server 部分功能开发，实现数据上报采集功能
+3.大数据实时应用以及离线应用的开发
 </description>
 
-- <datetime>2012.07 - 2013.07</datetime> <head_>**华为-软件开发工程师**</head_>
+- <datetime>2012.07 - 2013.07</datetime> <head_>**华为-软件工程师**</head_>
 <description>
 1.工作中使用 C/C++ 开发智能路由业务软件  
 2.CI（持续集成）项目负责人，保证测试用例自动完整的执行  
